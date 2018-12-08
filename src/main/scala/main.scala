@@ -11,4 +11,5 @@ object HelloScala extends App {
   println(closures.clo(4,6))
   closures.gouri()
   closures.ClosureExample2()
+  closures.FunctionFactories()
 }

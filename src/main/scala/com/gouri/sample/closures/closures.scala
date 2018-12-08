@@ -60,7 +60,7 @@ object closures {
 
   def FunctionFactories() = {
     def f1(param: String) = {
-      return def f2(param2: String) = {
+      (param2: String) => {
         param + param2
       }
     }
